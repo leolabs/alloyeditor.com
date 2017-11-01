@@ -1,5 +1,4 @@
 {
 	"id": "hosting",
-	"image": "wedeploy/hosting:0.0.3",
-	"customDomains": ["alloyeditor.com"]
+	"image": "wedeploy/hosting:0.0.1"
 }
