@@ -39047,240 +39047,6 @@
 					"children": [
 						{
 							"type": "text",
-							"value": "If set to true, the editor will still fire {{#crossLink \"CKEDITOR.plugins.ae_uicore/editorInteraction:event\"}}{{/crossLink}} event,\nif user presses Esc key.",
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 2,
-									"column": 25,
-									"offset": 156
-								},
-								"indent": [
-									1
-								]
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 2,
-							"column": 25,
-							"offset": 156
-						},
-						"indent": [
-							1
-						]
-					}
-				}
-			],
-			"position": {
-				"start": {
-					"line": 1,
-					"column": 1,
-					"offset": 0
-				},
-				"end": {
-					"line": 2,
-					"column": 25,
-					"offset": 156
-				}
-			}
-		},
-		"tags": [
-			{
-				"title": "attribute",
-				"description": "allowEsc",
-				"lineNumber": 4
-			},
-			{
-				"title": "default",
-				"description": "false",
-				"lineNumber": 5
-			},
-			{
-				"title": "type",
-				"description": "Boolean",
-				"lineNumber": 6,
-				"type": null,
-				"errors": [
-					"Missing or invalid tag type"
-				]
-			}
-		],
-		"loc": {
-			"start": {
-				"line": 40,
-				"column": 4
-			},
-			"end": {
-				"line": 47,
-				"column": 7
-			}
-		},
-		"context": {
-			"loc": {
-				"start": {
-					"line": 58,
-					"column": 4
-				},
-				"end": {
-					"line": 184,
-					"column": 6
-				}
-			},
-			"file": "src/core/uicore.js"
-		},
-		"name": "add",
-		"members": {
-			"instance": [],
-			"static": [],
-			"events": [],
-			"methods": [],
-			"properties": []
-		},
-		"path": [
-			{
-				"name": "add"
-			}
-		],
-		"namespace": "add",
-		"default": "false"
-	},
-	{
-		"description": {
-			"type": "root",
-			"children": [
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
-							"value": "Specifies the default timeout after which the {{#crossLink \"CKEDITOR.plugins.ae_uicore/editorInteraction:event\"}}{{/crossLink}} event\nwill be fired.",
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 2,
-									"column": 15,
-									"offset": 148
-								},
-								"indent": [
-									1
-								]
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 2,
-							"column": 15,
-							"offset": 148
-						},
-						"indent": [
-							1
-						]
-					}
-				}
-			],
-			"position": {
-				"start": {
-					"line": 1,
-					"column": 1,
-					"offset": 0
-				},
-				"end": {
-					"line": 2,
-					"column": 15,
-					"offset": 148
-				}
-			}
-		},
-		"tags": [
-			{
-				"title": "attribute",
-				"description": "timeout",
-				"lineNumber": 4
-			},
-			{
-				"title": "default",
-				"description": "50 (ms)",
-				"lineNumber": 5
-			},
-			{
-				"title": "type",
-				"description": "Number",
-				"lineNumber": 6,
-				"type": null,
-				"errors": [
-					"Missing or invalid tag type"
-				]
-			}
-		],
-		"loc": {
-			"start": {
-				"line": 49,
-				"column": 4
-			},
-			"end": {
-				"line": 56,
-				"column": 7
-			}
-		},
-		"context": {
-			"loc": {
-				"start": {
-					"line": 58,
-					"column": 4
-				},
-				"end": {
-					"line": 184,
-					"column": 6
-				}
-			},
-			"file": "src/core/uicore.js"
-		},
-		"name": "add",
-		"members": {
-			"instance": [],
-			"static": [],
-			"events": [],
-			"methods": [],
-			"properties": []
-		},
-		"path": [
-			{
-				"name": "add"
-			}
-		],
-		"namespace": "add",
-		"default": "50 (ms)"
-	},
-	{
-		"description": {
-			"type": "root",
-			"children": [
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
 							"value": "Fired when user interacts somehow with the browser. This may be clicking with the mouse, pressing keyboard button,\nor touching screen. This even will be not fired after each interaction. It will be debounced. By default the timeout\nis 50ms. This value can be overwritten via {{#crossLink \"CKEDITOR.plugins.ae_uicore/timeout:attribute\"}}{{/crossLink}}\nproperty of editor's configuration, like: editor.config.uicore.timeout = 100",
 							"position": {
 								"start": {
@@ -39584,6 +39350,240 @@
 			}
 		],
 		"namespace": ".event:editorInteraction"
+	},
+	{
+		"description": {
+			"type": "root",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "Specifies the default timeout after which the {{#crossLink \"CKEDITOR.plugins.ae_uicore/editorInteraction:event\"}}{{/crossLink}} event\nwill be fired.",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 2,
+									"column": 15,
+									"offset": 148
+								},
+								"indent": [
+									1
+								]
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 2,
+							"column": 15,
+							"offset": 148
+						},
+						"indent": [
+							1
+						]
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 2,
+					"column": 15,
+					"offset": 148
+				}
+			}
+		},
+		"tags": [
+			{
+				"title": "attribute",
+				"description": "timeout",
+				"lineNumber": 4
+			},
+			{
+				"title": "default",
+				"description": "50 (ms)",
+				"lineNumber": 5
+			},
+			{
+				"title": "type",
+				"description": "Number",
+				"lineNumber": 6,
+				"type": null,
+				"errors": [
+					"Missing or invalid tag type"
+				]
+			}
+		],
+		"loc": {
+			"start": {
+				"line": 49,
+				"column": 4
+			},
+			"end": {
+				"line": 56,
+				"column": 7
+			}
+		},
+		"context": {
+			"loc": {
+				"start": {
+					"line": 58,
+					"column": 4
+				},
+				"end": {
+					"line": 184,
+					"column": 6
+				}
+			},
+			"file": "src/core/uicore.js"
+		},
+		"name": "add",
+		"members": {
+			"instance": [],
+			"static": [],
+			"events": [],
+			"methods": [],
+			"properties": []
+		},
+		"path": [
+			{
+				"name": "add"
+			}
+		],
+		"namespace": "add",
+		"default": "50 (ms)"
+	},
+	{
+		"description": {
+			"type": "root",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "If set to true, the editor will still fire {{#crossLink \"CKEDITOR.plugins.ae_uicore/editorInteraction:event\"}}{{/crossLink}} event,\nif user presses Esc key.",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 2,
+									"column": 25,
+									"offset": 156
+								},
+								"indent": [
+									1
+								]
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 2,
+							"column": 25,
+							"offset": 156
+						},
+						"indent": [
+							1
+						]
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 2,
+					"column": 25,
+					"offset": 156
+				}
+			}
+		},
+		"tags": [
+			{
+				"title": "attribute",
+				"description": "allowEsc",
+				"lineNumber": 4
+			},
+			{
+				"title": "default",
+				"description": "false",
+				"lineNumber": 5
+			},
+			{
+				"title": "type",
+				"description": "Boolean",
+				"lineNumber": 6,
+				"type": null,
+				"errors": [
+					"Missing or invalid tag type"
+				]
+			}
+		],
+		"loc": {
+			"start": {
+				"line": 40,
+				"column": 4
+			},
+			"end": {
+				"line": 47,
+				"column": 7
+			}
+		},
+		"context": {
+			"loc": {
+				"start": {
+					"line": 58,
+					"column": 4
+				},
+				"end": {
+					"line": 184,
+					"column": 6
+				}
+			},
+			"file": "src/core/uicore.js"
+		},
+		"name": "add",
+		"members": {
+			"instance": [],
+			"static": [],
+			"events": [],
+			"methods": [],
+			"properties": []
+		},
+		"path": [
+			{
+				"name": "add"
+			}
+		],
+		"namespace": "add",
+		"default": "false"
 	},
 	{
 		"description": {
@@ -83236,178 +83236,6 @@
 					"children": [
 						{
 							"type": "text",
-							"value": "Fired when an image is being taken from the camera and added as an element to the editor.",
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 90,
-									"offset": 89
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 90,
-							"offset": 89
-						},
-						"indent": []
-					}
-				}
-			],
-			"position": {
-				"start": {
-					"line": 1,
-					"column": 1,
-					"offset": 0
-				},
-				"end": {
-					"line": 1,
-					"column": 90,
-					"offset": 89
-				}
-			}
-		},
-		"tags": [
-			{
-				"title": "event",
-				"description": "imageCameraAdd",
-				"lineNumber": 3
-			},
-			{
-				"title": "param",
-				"description": "The created img element in editor.",
-				"lineNumber": 4,
-				"type": {
-					"type": "NameExpression",
-					"name": "CKEDITOR.dom.element"
-				},
-				"name": "el"
-			}
-		],
-		"loc": {
-			"start": {
-				"line": 174,
-				"column": 8
-			},
-			"end": {
-				"line": 179,
-				"column": 11
-			}
-		},
-		"context": {
-			"loc": {
-				"start": {
-					"line": 142,
-					"column": 8
-				},
-				"end": {
-					"line": 172,
-					"column": 9
-				}
-			},
-			"file": "src/ui/react/src/components/buttons/button-camera-image.jsx"
-		},
-		"kind": "event",
-		"name": "imageCameraAdd",
-		"params": [
-			{
-				"name": "el",
-				"lineNumber": 4,
-				"description": {
-					"type": "root",
-					"children": [
-						{
-							"type": "paragraph",
-							"children": [
-								{
-									"type": "text",
-									"value": "The created img element in editor.",
-									"position": {
-										"start": {
-											"line": 1,
-											"column": 1,
-											"offset": 0
-										},
-										"end": {
-											"line": 1,
-											"column": 35,
-											"offset": 34
-										},
-										"indent": []
-									}
-								}
-							],
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 35,
-									"offset": 34
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 35,
-							"offset": 34
-						}
-					}
-				},
-				"type": {
-					"type": "NameExpression",
-					"name": "CKEDITOR.dom.element"
-				}
-			}
-		],
-		"members": {
-			"instance": [],
-			"static": [],
-			"events": [],
-			"methods": [],
-			"properties": []
-		},
-		"path": [
-			{
-				"name": "imageCameraAdd",
-				"kind": "event"
-			}
-		],
-		"namespace": ".event:imageCameraAdd"
-	},
-	{
-		"description": {
-			"type": "root",
-			"children": [
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
 							"value": "Starts streaming video in the video element and sets width/height to the video\nand canvas elements.",
 							"position": {
 								"start": {
@@ -83575,6 +83403,178 @@
 			}
 		],
 		"namespace": "_handleStreamSuccess"
+	},
+	{
+		"description": {
+			"type": "root",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "Fired when an image is being taken from the camera and added as an element to the editor.",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 90,
+									"offset": 89
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 90,
+							"offset": 89
+						},
+						"indent": []
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 90,
+					"offset": 89
+				}
+			}
+		},
+		"tags": [
+			{
+				"title": "event",
+				"description": "imageCameraAdd",
+				"lineNumber": 3
+			},
+			{
+				"title": "param",
+				"description": "The created img element in editor.",
+				"lineNumber": 4,
+				"type": {
+					"type": "NameExpression",
+					"name": "CKEDITOR.dom.element"
+				},
+				"name": "el"
+			}
+		],
+		"loc": {
+			"start": {
+				"line": 174,
+				"column": 8
+			},
+			"end": {
+				"line": 179,
+				"column": 11
+			}
+		},
+		"context": {
+			"loc": {
+				"start": {
+					"line": 142,
+					"column": 8
+				},
+				"end": {
+					"line": 172,
+					"column": 9
+				}
+			},
+			"file": "src/ui/react/src/components/buttons/button-camera-image.jsx"
+		},
+		"kind": "event",
+		"name": "imageCameraAdd",
+		"params": [
+			{
+				"name": "el",
+				"lineNumber": 4,
+				"description": {
+					"type": "root",
+					"children": [
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "The created img element in editor.",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 1,
+											"offset": 0
+										},
+										"end": {
+											"line": 1,
+											"column": 35,
+											"offset": 34
+										},
+										"indent": []
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 35,
+									"offset": 34
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 35,
+							"offset": 34
+						}
+					}
+				},
+				"type": {
+					"type": "NameExpression",
+					"name": "CKEDITOR.dom.element"
+				}
+			}
+		],
+		"members": {
+			"instance": [],
+			"static": [],
+			"events": [],
+			"methods": [],
+			"properties": []
+		},
+		"path": [
+			{
+				"name": "imageCameraAdd",
+				"kind": "event"
+			}
+		],
+		"namespace": ".event:imageCameraAdd"
 	},
 	{
 		"description": {
@@ -88501,6 +88501,420 @@
 					"children": [
 						{
 							"type": "text",
+							"value": "Fired before adding images to the editor.",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 42,
+									"offset": 41
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 42,
+							"offset": 41
+						},
+						"indent": []
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 42,
+					"offset": 41
+				}
+			}
+		},
+		"tags": [
+			{
+				"title": "event",
+				"description": "beforeImageAdd",
+				"lineNumber": 3
+			},
+			{
+				"title": "param",
+				"description": "Array of image files",
+				"lineNumber": 4,
+				"type": {
+					"type": "NameExpression",
+					"name": "Array"
+				},
+				"name": "imageFiles"
+			}
+		],
+		"loc": {
+			"start": {
+				"line": 130,
+				"column": 8
+			},
+			"end": {
+				"line": 135,
+				"column": 11
+			}
+		},
+		"context": {
+			"loc": {
+				"start": {
+					"line": 89,
+					"column": 8
+				},
+				"end": {
+					"line": 128,
+					"column": 9
+				}
+			},
+			"file": "src/ui/react/src/components/buttons/button-image.jsx"
+		},
+		"kind": "event",
+		"name": "beforeImageAdd",
+		"params": [
+			{
+				"name": "imageFiles",
+				"lineNumber": 4,
+				"description": {
+					"type": "root",
+					"children": [
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "Array of image files",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 1,
+											"offset": 0
+										},
+										"end": {
+											"line": 1,
+											"column": 21,
+											"offset": 20
+										},
+										"indent": []
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 21,
+									"offset": 20
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 21,
+							"offset": 20
+						}
+					}
+				},
+				"type": {
+					"type": "NameExpression",
+					"name": "Array"
+				}
+			}
+		],
+		"members": {
+			"instance": [],
+			"static": [],
+			"events": [],
+			"methods": [],
+			"properties": []
+		},
+		"path": [
+			{
+				"name": "beforeImageAdd",
+				"kind": "event"
+			}
+		],
+		"namespace": ".event:beforeImageAdd"
+	},
+	{
+		"description": {
+			"type": "root",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "Fired when an image is being added to the editor successfully.",
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 63,
+									"offset": 62
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 63,
+							"offset": 62
+						},
+						"indent": []
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 63,
+					"offset": 62
+				}
+			}
+		},
+		"tags": [
+			{
+				"title": "event",
+				"description": "imageAdd",
+				"lineNumber": 3
+			},
+			{
+				"title": "param",
+				"description": "The created image with src as Data URI",
+				"lineNumber": 4,
+				"type": {
+					"type": "NameExpression",
+					"name": "CKEDITOR.dom.element"
+				},
+				"name": "el"
+			},
+			{
+				"title": "param",
+				"description": "The image file",
+				"lineNumber": 5,
+				"type": {
+					"type": "NameExpression",
+					"name": "File"
+				},
+				"name": "file"
+			}
+		],
+		"loc": {
+			"start": {
+				"line": 137,
+				"column": 8
+			},
+			"end": {
+				"line": 143,
+				"column": 11
+			}
+		},
+		"context": {
+			"loc": {
+				"start": {
+					"line": 89,
+					"column": 8
+				},
+				"end": {
+					"line": 128,
+					"column": 9
+				}
+			},
+			"file": "src/ui/react/src/components/buttons/button-image.jsx"
+		},
+		"kind": "event",
+		"name": "imageAdd",
+		"params": [
+			{
+				"name": "el",
+				"lineNumber": 4,
+				"description": {
+					"type": "root",
+					"children": [
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "The created image with src as Data URI",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 1,
+											"offset": 0
+										},
+										"end": {
+											"line": 1,
+											"column": 39,
+											"offset": 38
+										},
+										"indent": []
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 39,
+									"offset": 38
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 39,
+							"offset": 38
+						}
+					}
+				},
+				"type": {
+					"type": "NameExpression",
+					"name": "CKEDITOR.dom.element"
+				}
+			},
+			{
+				"name": "file",
+				"lineNumber": 5,
+				"description": {
+					"type": "root",
+					"children": [
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "The image file",
+									"position": {
+										"start": {
+											"line": 1,
+											"column": 1,
+											"offset": 0
+										},
+										"end": {
+											"line": 1,
+											"column": 15,
+											"offset": 14
+										},
+										"indent": []
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 1,
+									"column": 1,
+									"offset": 0
+								},
+								"end": {
+									"line": 1,
+									"column": 15,
+									"offset": 14
+								},
+								"indent": []
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 15,
+							"offset": 14
+						}
+					}
+				},
+				"type": {
+					"type": "NameExpression",
+					"name": "File"
+				}
+			}
+		],
+		"members": {
+			"instance": [],
+			"static": [],
+			"events": [],
+			"methods": [],
+			"properties": []
+		},
+		"path": [
+			{
+				"name": "imageAdd",
+				"kind": "event"
+			}
+		],
+		"namespace": ".event:imageAdd"
+	},
+	{
+		"description": {
+			"type": "root",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
 							"value": "On input change, reads the chosen file and fires an event ",
 							"position": {
 								"start": {
@@ -88915,420 +89329,6 @@
 			}
 		],
 		"namespace": "_onInputChange"
-	},
-	{
-		"description": {
-			"type": "root",
-			"children": [
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
-							"value": "Fired before adding images to the editor.",
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 42,
-									"offset": 41
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 42,
-							"offset": 41
-						},
-						"indent": []
-					}
-				}
-			],
-			"position": {
-				"start": {
-					"line": 1,
-					"column": 1,
-					"offset": 0
-				},
-				"end": {
-					"line": 1,
-					"column": 42,
-					"offset": 41
-				}
-			}
-		},
-		"tags": [
-			{
-				"title": "event",
-				"description": "beforeImageAdd",
-				"lineNumber": 3
-			},
-			{
-				"title": "param",
-				"description": "Array of image files",
-				"lineNumber": 4,
-				"type": {
-					"type": "NameExpression",
-					"name": "Array"
-				},
-				"name": "imageFiles"
-			}
-		],
-		"loc": {
-			"start": {
-				"line": 130,
-				"column": 8
-			},
-			"end": {
-				"line": 135,
-				"column": 11
-			}
-		},
-		"context": {
-			"loc": {
-				"start": {
-					"line": 89,
-					"column": 8
-				},
-				"end": {
-					"line": 128,
-					"column": 9
-				}
-			},
-			"file": "src/ui/react/src/components/buttons/button-image.jsx"
-		},
-		"kind": "event",
-		"name": "beforeImageAdd",
-		"params": [
-			{
-				"name": "imageFiles",
-				"lineNumber": 4,
-				"description": {
-					"type": "root",
-					"children": [
-						{
-							"type": "paragraph",
-							"children": [
-								{
-									"type": "text",
-									"value": "Array of image files",
-									"position": {
-										"start": {
-											"line": 1,
-											"column": 1,
-											"offset": 0
-										},
-										"end": {
-											"line": 1,
-											"column": 21,
-											"offset": 20
-										},
-										"indent": []
-									}
-								}
-							],
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 21,
-									"offset": 20
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 21,
-							"offset": 20
-						}
-					}
-				},
-				"type": {
-					"type": "NameExpression",
-					"name": "Array"
-				}
-			}
-		],
-		"members": {
-			"instance": [],
-			"static": [],
-			"events": [],
-			"methods": [],
-			"properties": []
-		},
-		"path": [
-			{
-				"name": "beforeImageAdd",
-				"kind": "event"
-			}
-		],
-		"namespace": ".event:beforeImageAdd"
-	},
-	{
-		"description": {
-			"type": "root",
-			"children": [
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
-							"value": "Fired when an image is being added to the editor successfully.",
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 63,
-									"offset": 62
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 63,
-							"offset": 62
-						},
-						"indent": []
-					}
-				}
-			],
-			"position": {
-				"start": {
-					"line": 1,
-					"column": 1,
-					"offset": 0
-				},
-				"end": {
-					"line": 1,
-					"column": 63,
-					"offset": 62
-				}
-			}
-		},
-		"tags": [
-			{
-				"title": "event",
-				"description": "imageAdd",
-				"lineNumber": 3
-			},
-			{
-				"title": "param",
-				"description": "The created image with src as Data URI",
-				"lineNumber": 4,
-				"type": {
-					"type": "NameExpression",
-					"name": "CKEDITOR.dom.element"
-				},
-				"name": "el"
-			},
-			{
-				"title": "param",
-				"description": "The image file",
-				"lineNumber": 5,
-				"type": {
-					"type": "NameExpression",
-					"name": "File"
-				},
-				"name": "file"
-			}
-		],
-		"loc": {
-			"start": {
-				"line": 137,
-				"column": 8
-			},
-			"end": {
-				"line": 143,
-				"column": 11
-			}
-		},
-		"context": {
-			"loc": {
-				"start": {
-					"line": 89,
-					"column": 8
-				},
-				"end": {
-					"line": 128,
-					"column": 9
-				}
-			},
-			"file": "src/ui/react/src/components/buttons/button-image.jsx"
-		},
-		"kind": "event",
-		"name": "imageAdd",
-		"params": [
-			{
-				"name": "el",
-				"lineNumber": 4,
-				"description": {
-					"type": "root",
-					"children": [
-						{
-							"type": "paragraph",
-							"children": [
-								{
-									"type": "text",
-									"value": "The created image with src as Data URI",
-									"position": {
-										"start": {
-											"line": 1,
-											"column": 1,
-											"offset": 0
-										},
-										"end": {
-											"line": 1,
-											"column": 39,
-											"offset": 38
-										},
-										"indent": []
-									}
-								}
-							],
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 39,
-									"offset": 38
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 39,
-							"offset": 38
-						}
-					}
-				},
-				"type": {
-					"type": "NameExpression",
-					"name": "CKEDITOR.dom.element"
-				}
-			},
-			{
-				"name": "file",
-				"lineNumber": 5,
-				"description": {
-					"type": "root",
-					"children": [
-						{
-							"type": "paragraph",
-							"children": [
-								{
-									"type": "text",
-									"value": "The image file",
-									"position": {
-										"start": {
-											"line": 1,
-											"column": 1,
-											"offset": 0
-										},
-										"end": {
-											"line": 1,
-											"column": 15,
-											"offset": 14
-										},
-										"indent": []
-									}
-								}
-							],
-							"position": {
-								"start": {
-									"line": 1,
-									"column": 1,
-									"offset": 0
-								},
-								"end": {
-									"line": 1,
-									"column": 15,
-									"offset": 14
-								},
-								"indent": []
-							}
-						}
-					],
-					"position": {
-						"start": {
-							"line": 1,
-							"column": 1,
-							"offset": 0
-						},
-						"end": {
-							"line": 1,
-							"column": 15,
-							"offset": 14
-						}
-					}
-				},
-				"type": {
-					"type": "NameExpression",
-					"name": "File"
-				}
-			}
-		],
-		"members": {
-			"instance": [],
-			"static": [],
-			"events": [],
-			"methods": [],
-			"properties": []
-		},
-		"path": [
-			{
-				"name": "imageAdd",
-				"kind": "event"
-			}
-		],
-		"namespace": ".event:imageAdd"
 	},
 	{
 		"description": {
