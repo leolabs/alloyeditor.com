@@ -21,7 +21,7 @@ var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _Demo = __webpack_require__(82);
+var _Demo = __webpack_require__(73);
 
 var _Demo2 = _interopRequireDefault(_Demo);
 
@@ -60,7 +60,7 @@ exports.default = Demo;
 
 /***/ }),
 
-/***/ 82:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -120,8 +120,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'contenteditable', 'true',
       'data-placeholder', 'Write content here');
     if (opt_data.contentHtml) {
-      var dyn17 = opt_data.contentHtml;
-      if (typeof dyn17 == 'function') dyn17(); else if (dyn17 != null) itext(dyn17);
+      var dyn14 = opt_data.contentHtml;
+      if (typeof dyn14 == 'function') dyn14(); else if (dyn14 != null) itext(dyn14);
     }
   ie_close('div');
 }
